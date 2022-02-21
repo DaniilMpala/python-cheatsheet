@@ -1,27 +1,5 @@
-#!/usr/bin/env node
-// Usage: node parse.js
-//
-// Script that creates index.html out of web/template.html and README.md.
-//
-// It is written in JS because this code used to be executed on the client side.
-// To install the Node.js and npm run:
-// $ sudo apt install nodejs npm  # On macOS use `brew install ...` instead.
-//
-// To install dependencies globally, run:
-// $ npm install -g jsdom jquery showdown highlightjs@9.12.0
-//
-// If running on macOS and modules can't be found after installation add:
-// export NODE_PATH=/usr/local/lib/node_modules
-// to the ~/.bash_profile or ~/.bashrc file and run '$ bash'.
-//
-// To avoid problems with permissions and path variables, install modules
-// into project's directory using:
-// $ npm install jsdom jquery showdown highlightjs@9.12.0
-//
-// It is also advisable to add a Bash script into .git/hooks directory, that will
-// run this script before every commit. It should be named 'pre-commit' and it
-// should contain the following line: `./parse.js`.
 
+//1 commit branch2
 
 const fs = require('fs');
 const jsdom = require('jsdom');
