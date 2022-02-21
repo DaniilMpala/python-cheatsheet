@@ -1,6 +1,4 @@
-
-//3 commit branch2
-
+// 3 commit branch1
 const fs = require('fs');
 const jsdom = require('jsdom');
 const showdown  = require('showdown');
